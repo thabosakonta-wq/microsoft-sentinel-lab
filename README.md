@@ -32,16 +32,17 @@ Screenshots
 
 Alert Triage
 
-"Alert Triage" (screenshots/alert_triage.png)
+### Alert Triage
 
-MITRE ATT&CK Analysis
+![Alert Triage](screenshots/alert_triage.png)
 
-"MITRE Analysis" (screenshots/mitre_analysis.png)
+### MITRE ATT&CK Analysis
 
-Incident Investigation
+![MITRE Analysis](screenshots/mitre_analysis.png)
 
-"Incident Investigation" (screenshots/incident_investigation.png)
+### Incident Investigation
 
+![Incident Investigation](screenshots/incident_investigation.png)
 ---
 
 MITRE ATT&CK Coverage
