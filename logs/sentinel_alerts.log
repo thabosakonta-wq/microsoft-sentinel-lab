@@ -1,0 +1,15 @@
+AlertName: Multiple Failed Logins
+Severity: High
+MITRE: T1110
+
+AlertName: Suspicious PowerShell Activity
+Severity: Medium
+MITRE: T1059.001
+
+AlertName: New User Account Created
+Severity: Medium
+MITRE: T1136
+
+AlertName: Privileged Role Assignment
+Severity: High
+MITRE: T1078

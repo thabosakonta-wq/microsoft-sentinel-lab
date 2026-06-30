@@ -1,0 +1,35 @@
+MICROSOFT SENTINEL INVESTIGATION REPORT
+
+Incident ID:
+MS-SENTINEL-2026-001
+
+Date:
+2026-06-29
+
+Summary:
+Multiple security alerts were detected within Microsoft Sentinel.
+
+Alerts Investigated:
+- Multiple Failed Logins
+- Suspicious PowerShell Activity
+- New User Account Created
+- Privileged Role Assignment
+
+Severity Breakdown:
+High: 2
+Medium: 2
+
+MITRE ATT&CK Mapping:
+T1110 - Brute Force
+T1059.001 - PowerShell
+T1136 - Create Account
+T1078 - Valid Accounts
+
+Recommendations:
+- Review failed authentication attempts
+- Investigate PowerShell execution
+- Validate new account creation
+- Review privileged role assignments
+
+Status:
+Investigation Complete
