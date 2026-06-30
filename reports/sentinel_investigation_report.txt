@@ -6,30 +6,57 @@ MS-SENTINEL-2026-001
 Date:
 2026-06-29
 
-Summary:
-Multiple security alerts were detected within Microsoft Sentinel.
+Executive Summary
+
+Multiple security alerts were investigated within Microsoft Sentinel.
 
 Alerts Investigated:
+
 - Multiple Failed Logins
 - Suspicious PowerShell Activity
 - New User Account Created
 - Privileged Role Assignment
 
-Severity Breakdown:
-High: 2
-Medium: 2
+Severity Assessment
 
-MITRE ATT&CK Mapping:
-T1110 - Brute Force
-T1059.001 - PowerShell
-T1136 - Create Account
-T1078 - Valid Accounts
+High Severity:
 
-Recommendations:
-- Review failed authentication attempts
-- Investigate PowerShell execution
-- Validate new account creation
+- Suspicious PowerShell Activity
+- Privileged Role Assignment
+
+Medium Severity:
+
+- Multiple Failed Logins
+- New User Account Created
+
+MITRE ATT&CK Mapping
+
+T1110 – Brute Force
+
+T1059.001 – PowerShell
+
+T1136 – Create Account
+
+T1078 – Valid Accounts
+
+Findings
+
+Multiple failed authentication attempts were observed.
+
+PowerShell activity was detected and requires validation.
+
+A new user account was created.
+
+Privileged role assignment activity was identified.
+
+Recommendations
+
+- Review authentication logs
+- Validate PowerShell execution activity
+- Confirm account creation legitimacy
 - Review privileged role assignments
+- Continue monitoring for recurrence
 
-Status:
+Status
+
 Investigation Complete
