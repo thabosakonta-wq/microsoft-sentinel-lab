@@ -30,8 +30,6 @@ Documents incidents and response recommendations.
 
 Screenshots
 
-Alert Triage
-
 ### Alert Triage
 
 ![Alert Triage](screenshots/alert_triage.png)
@@ -43,15 +41,17 @@ Alert Triage
 ### Incident Investigation
 
 ![Incident Investigation](screenshots/incident_investigation.png)
+
 ---
 
-MITRE ATT&CK Coverage
+## MITRE ATT&CK Coverage
 
-Technique| Description
-T1110| Brute Force
-T1059.001| PowerShell
-T1136| Create Account
-T1078| Valid Accounts
+| Technique | Description |
+|-----------|-------------|
+| T1110 | Brute Force |
+| T1059.001 | PowerShell |
+| T1136 | Create Account |
+| T1078 | Valid Accounts |
 
 ---
 
@@ -83,28 +83,25 @@ reports/mitre_mapping.md
 
 ---
 
-Project Structure
+## Project Structure
 
-Microsoft-Sentinel-Lab/
-
+```text
+Microsoft-Sentinel-Lab
 ├── logs
 │   └── sentinel_alerts.log
-
 ├── queries
 │   ├── alert_triage.sh
 │   ├── incident_investigation.sh
 │   └── mitre_analysis.sh
-
 ├── reports
 │   ├── mitre_mapping.md
 │   └── sentinel_investigation_report.txt
-
 ├── screenshots
 │   ├── alert_triage.png
 │   ├── incident_investigation.png
 │   └── mitre_analysis.png
-
 └── README.md
+```
 
 ---
 
