@@ -1,6 +1,6 @@
 # Microsoft Sentinel Lab
 
-A cybersecurity project demonstrating Microsoft Sentinel alert triage, incident investigation, threat detection, Security Information and Event Management (SIEM) operations, and MITRE ATT&CK mapping.
+A cybersecurity project demonstrating Microsoft Sentinel alert triage, incident investigation, SIEM operations, threat detection, and MITRE ATT&CK mapping.
 
 ---
 
