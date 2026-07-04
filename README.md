@@ -10,16 +10,14 @@ This project demonstrates how Security Operations Center (SOC) analysts use Micr
 
 The lab simulates a Microsoft Sentinel workflow by analyzing security alerts, mapping detections to the MITRE ATT&CK framework, and producing professional SOC investigation documentation.
 
----
-
-# Objectives
+## Objectives
 
 - Demonstrate Microsoft Sentinel investigation workflows.
 - Perform alert triage and incident prioritization.
-- Investigate security events and alerts.
-- Map detections to the MITRE ATT&CK framework.
+- Investigate security alerts.
+- Map detections to MITRE ATT&CK.
 - Produce professional SOC investigation reports.
-- Demonstrate practical SIEM investigation skills expected of SOC Analysts.
+- Demonstrate practical SIEM investigation skills.
 
 ---
 
