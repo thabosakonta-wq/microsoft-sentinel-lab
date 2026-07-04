@@ -21,6 +21,17 @@ The lab simulates a Microsoft Sentinel workflow by analyzing security alerts, ma
 
 ---
 
+## Detection Coverage
+
+| Detection | Severity |
+|-----------|----------|
+| Alert Triage | High |
+| Incident Investigation | High |
+| MITRE ATT&CK Analysis | Medium |
+| Threat Correlation | High |
+
+---
+
 # Features
 
 ## Alert Triage
