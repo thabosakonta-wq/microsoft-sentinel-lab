@@ -116,7 +116,7 @@ Microsoft-Sentinel-Lab
 
 ---
 
-# Reports
+## Reports
 
 - Executive Summary
 - Microsoft Sentinel Investigation Report
