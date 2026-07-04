@@ -1,6 +1,6 @@
 # Microsoft Sentinel Lab
 
-A cybersecurity project demonstrating Microsoft Sentinel alert triage, incident investigation, SIEM operations, threat detection, and MITRE ATT&CK mapping.
+A cybersecurity project demonstrating Microsoft Sentinel alert triage, incident investigation, Security Information and Event Management (SIEM) operations, threat detection, and MITRE ATT&CK mapping.
 
 ---
 
@@ -8,27 +8,18 @@ A cybersecurity project demonstrating Microsoft Sentinel alert triage, incident 
 
 This project demonstrates how Security Operations Center (SOC) analysts use Microsoft Sentinel to investigate security alerts, perform alert triage, correlate security events, prioritize incidents, and document investigation findings.
 
-The lab simulates a Microsoft Sentinel workflow by analyzing security alerts, mapping detections to the MITRE ATT&CK framework, and producing professional SOC investigation documentation.
-
-## Objectives
-
-- Demonstrate Microsoft Sentinel investigation workflows.
-- Perform alert triage and incident prioritization.
-- Investigate security alerts.
-- Map detections to MITRE ATT&CK.
-- Produce professional SOC investigation reports.
-- Demonstrate practical SIEM investigation skills.
+The lab simulates a Microsoft Sentinel investigation workflow by analyzing security alerts, mapping detections to the MITRE ATT&CK framework, and producing professional SOC investigation documentation.
 
 ---
 
-## Detection Coverage
+# Objectives
 
-| Detection | Severity |
-|-----------|----------|
-| Alert Triage | High |
-| Incident Investigation | High |
-| MITRE ATT&CK Analysis | Medium |
-| Threat Correlation | High |
+* Demonstrate Microsoft Sentinel investigation workflows.
+* Perform alert triage and incident prioritization.
+* Investigate security alerts and incidents.
+* Map detections to the MITRE ATT&CK framework.
+* Produce professional SOC investigation reports.
+* Demonstrate practical SIEM investigation skills expected of SOC Analysts.
 
 ---
 
@@ -36,60 +27,60 @@ The lab simulates a Microsoft Sentinel workflow by analyzing security alerts, ma
 
 ## Alert Triage
 
-- Investigates Microsoft Sentinel alerts.
-- Identifies suspicious security activity.
-- Prioritizes alerts by severity.
+* Investigates Microsoft Sentinel alerts.
+* Identifies suspicious security activity.
+* Prioritizes alerts based on severity.
 
 ## Incident Investigation
 
-- Correlates security events.
-- Assesses incident severity.
-- Supports escalation decisions.
+* Correlates security events.
+* Assesses incident severity.
+* Supports escalation decisions.
 
 ## MITRE ATT&CK Analysis
 
-- Maps detections to ATT&CK techniques.
-- Documents adversary behavior.
+* Maps detections to ATT&CK techniques.
+* Documents attacker behaviors.
 
 ## Security Reporting
 
-- Produces investigation reports.
-- Documents findings and response recommendations.
+* Produces professional investigation reports.
+* Documents findings and response recommendations.
 
 ---
 
 # MITRE ATT&CK Coverage
 
-| Technique | ATT&CK ID | Description |
-|-----------|-----------|-------------|
-| Brute Force | T1110 | Credential Access |
-| PowerShell | T1059.001 | Execution |
-| Create Account | T1136 | Persistence |
-| Valid Accounts | T1078 | Defense Evasion |
+| Technique      | ATT&CK ID | Description       |
+| -------------- | --------- | ----------------- |
+| Brute Force    | T1110     | Credential Access |
+| PowerShell     | T1059.001 | Execution         |
+| Create Account | T1136     | Persistence       |
+| Valid Accounts | T1078     | Defense Evasion   |
 
 ---
 
 # Detection Coverage
 
-| Detection | Severity |
-|-----------|----------|
-| Alert Triage | High |
-| Incident Investigation | High |
-| MITRE ATT&CK Analysis | Medium |
-| Threat Correlation | High |
+| Detection              | Severity |
+| ---------------------- | -------- |
+| Alert Triage           | High     |
+| Incident Investigation | High     |
+| MITRE ATT&CK Analysis  | Medium   |
+| Threat Correlation     | High     |
 
 ---
 
 # Technologies Used
 
-- Microsoft Sentinel
-- Microsoft Azure
-- MITRE ATT&CK
-- Linux
-- Bash
-- Git
-- GitHub
-- Termux
+* Microsoft Sentinel
+* Microsoft Azure
+* MITRE ATT&CK
+* Linux
+* Bash
+* Git
+* GitHub
+* Termux
 
 ---
 
@@ -116,11 +107,11 @@ Microsoft-Sentinel-Lab
 
 ---
 
-## Reports
+# Reports
 
-- Executive Summary
-- Microsoft Sentinel Investigation Report
-- MITRE ATT&CK Mapping
+* Executive Summary
+* Microsoft Sentinel Investigation Report
+* MITRE ATT&CK Mapping
 
 ---
 
@@ -142,27 +133,27 @@ Microsoft-Sentinel-Lab
 
 # Learning Outcomes
 
-- Microsoft Sentinel Investigation
-- Alert Triage
-- Incident Investigation
-- Threat Detection
-- Security Monitoring
-- SIEM Operations
-- MITRE ATT&CK Mapping
-- SOC Operations
+* Microsoft Sentinel Investigation
+* Alert Triage
+* Incident Investigation
+* Threat Detection
+* Security Monitoring
+* SIEM Operations
+* MITRE ATT&CK Mapping
+* SOC Operations
 
 ---
 
 # Future Enhancements
 
-- Microsoft Defender XDR Integration
-- Sentinel Automation Rules
-- Logic Apps Playbooks
-- KQL Advanced Hunting
-- Threat Intelligence Integration
-- Automated IOC Enrichment
-- UEBA Analytics
-- Fusion Detection Rules
+* Microsoft Defender XDR Integration
+* Sentinel Automation Rules
+* Logic Apps Playbooks
+* KQL Advanced Hunting
+* Threat Intelligence Integration
+* Automated IOC Enrichment
+* UEBA Analytics
+* Fusion Detection Rules
 
 ---
 
@@ -184,8 +175,3 @@ https://www.linkedin.com/in/thabo-sakonta-377a3748
 
 This project is provided for educational, research, and professional cybersecurity portfolio purposes.
 
----
-
-License
-
-This project is provided for educational and portfolio purposes.
