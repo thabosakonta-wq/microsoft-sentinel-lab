@@ -49,6 +49,25 @@ The lab simulates a Microsoft Sentinel investigation workflow by analyzing secur
 
 ---
 
+## Detection Engineering
+
+This lab demonstrates the conversion of Sigma detection rules into Microsoft Sentinel KQL queries.
+
+Detection workflow:
+
+Sigma Rule → Sigma Validation → KQL Conversion → Microsoft Sentinel Query → Alert Investigation
+
+Implemented detections:
+
+| Detection | Sigma Rule | KQL Query | MITRE ATT&CK |
+|---|---|---|---|
+| PowerShell Execution | powershell_rule.yml | powershell_detection.kql | T1059.001 |
+| Brute Force Login | brute_force_rule.yml | brute_force_detection.kql | T1110 |
+| Account Creation | account_creation_rule.yml | account_creation_detection.kql | T1136 |
+| Privilege Escalation | privilege_escalation_rule.yml | privilege_escalation_detection.kql | T1068 |
+
+---
+
 # MITRE ATT&CK Coverage
 
 | Technique      | ATT&CK ID | Description       |
