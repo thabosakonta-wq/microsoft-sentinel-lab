@@ -121,8 +121,6 @@ Queries are generated from Sigma rules using pySigma and the Microsoft Kusto bac
 # Project Structure
 
 ```text
-## Project Structure
-
 Microsoft-Sentinel-Lab
 
 ├── logs
