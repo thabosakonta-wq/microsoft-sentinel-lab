@@ -121,21 +121,36 @@ Queries are generated from Sigma rules using pySigma and the Microsoft Kusto bac
 # Project Structure
 
 ```text
+## Project Structure
+
 Microsoft-Sentinel-Lab
+
 ├── logs
 │   └── sentinel_alerts.log
+
 ├── queries
 │   ├── alert_triage.sh
 │   ├── incident_investigation.sh
 │   └── mitre_analysis.sh
+
+├── kql_queries
+│   ├── powershell_detection.kql
+│   ├── brute_force_detection.kql
+│   ├── account_creation_detection.kql
+│   └── privilege_escalation_detection.kql
+
+├── sigma_rules
+│   ├── powershell_rule.yml
+│   ├── brute_force_rule.yml
+│   ├── account_creation_rule.yml
+│   └── privilege_escalation_rule.yml
+
 ├── reports
 │   ├── executive_summary.md
 │   ├── mitre_mapping.md
 │   └── sentinel_investigation_report.txt
+
 ├── screenshots
-│   ├── alert_triage.png
-│   ├── incident_investigation.png
-│   └── mitre_analysis.png
 └── README.md
 ```
 
