@@ -90,6 +90,21 @@ Implemented detections:
 
 ---
 
+## Microsoft Sentinel KQL Queries
+
+Generated KQL detections:
+
+| Query | Purpose |
+|---|---|
+| powershell_detection.kql | Detect PowerShell execution |
+| brute_force_detection.kql | Detect failed login attempts |
+| account_creation_detection.kql | Detect new account creation |
+| privilege_escalation_detection.kql | Detect privilege escalation |
+
+Queries are generated from Sigma rules using pySigma and the Microsoft Kusto backend.
+
+---
+
 # Technologies Used
 
 * Microsoft Sentinel
