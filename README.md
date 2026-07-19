@@ -105,16 +105,19 @@ Queries are generated from Sigma rules using pySigma and the Microsoft Kusto bac
 
 ---
 
-# Technologies Used
+## Technologies Used
 
-* Microsoft Sentinel
-* Microsoft Azure
-* MITRE ATT&CK
-* Linux
-* Bash
-* Git
-* GitHub
-* Termux
+- Microsoft Sentinel
+- Microsoft Azure
+- Kusto Query Language (KQL)
+- Sigma Detection Framework
+- pySigma
+- MITRE ATT&CK Framework
+- Linux
+- Bash
+- Git
+- GitHub
+- Termux
 
 ---
 
