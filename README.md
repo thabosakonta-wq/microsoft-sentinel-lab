@@ -68,14 +68,14 @@ Implemented detections:
 
 ---
 
-# MITRE ATT&CK Coverage
+## MITRE ATT&CK Coverage
 
-| Technique      | ATT&CK ID | Description       |
-| -------------- | --------- | ----------------- |
-| Brute Force    | T1110     | Credential Access |
-| PowerShell     | T1059.001 | Execution         |
-| Create Account | T1136     | Persistence       |
-| Valid Accounts | T1078     | Defense Evasion   |
+| Detection | ATT&CK ID | Tactic | Description |
+|---|---|---|---|
+| PowerShell Execution | T1059.001 | Execution | Detects PowerShell-based execution activity |
+| Brute Force Authentication | T1110 | Credential Access | Detects repeated failed authentication attempts |
+| Account Creation | T1136 | Persistence | Detects creation of new user accounts |
+| Privilege Escalation | T1068 | Privilege Escalation | Detects suspicious privilege escalation activity |
 
 ---
 
