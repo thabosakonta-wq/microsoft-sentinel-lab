@@ -181,6 +181,22 @@ Microsoft-Sentinel-Lab
 
 ---
 
+## SOC Analyst Skills Demonstrated
+
+This project demonstrates practical SOC capabilities:
+
+- SIEM alert investigation
+- Incident triage
+- Detection engineering
+- Sigma rule development
+- KQL query development
+- MITRE ATT&CK mapping
+- Threat detection lifecycle
+- Security documentation
+- Blue-team workflow automation
+
+  ---
+
 # Learning Outcomes
 
 * Microsoft Sentinel Investigation
