@@ -77,6 +77,30 @@ Implemented detections:
 | Account Creation | T1136 | Persistence | Detects creation of new user accounts |
 | Privilege Escalation | T1068 | Privilege Escalation | Detects suspicious privilege escalation activity |
 
+This lab demonstrates how Sigma detection rules can be converted into Microsoft Sentinel Kusto Query Language (KQL) queries for use in SIEM detection engineering.
+
+### Detection Workflow
+
+Sigma Rule → Sigma Validation → KQL Conversion → Microsoft Sentinel Analytics Rule → Alert Investigation
+
+| Detection | Sigma Rule | KQL Query | MITRE ATT&CK |
+|-----------|------------|-----------|--------------|
+| PowerShell Execution | powershell_rule.yml | powershell_detection.kql | T1059.001 |
+| Brute Force Login | brute_force_rule.yml | brute_force_detection.kql | T1110 |
+| Account Creation | account_creation_rule.yml | account_creation_detection.kql | T1136 |
+| Privilege Escalation | privilege_escalation_rule.yml | privilege_escalation_detection.kql | T1068 |
+
+---
+
+# MITRE ATT&CK Coverage
+
+| Detection | ATT&CK ID | Tactic | Description |
+|-----------|-----------|--------|-------------|
+| PowerShell Execution | T1059.001 | Execution | Detects PowerShell execution activity |
+| Brute Force Authentication | T1110 | Credential Access | Detects repeated failed authentication attempts |
+| Account Creation | T1136 | Persistence | Detects creation of new user accounts |
+| Privilege Escalation | T1068 | Privilege Escalation | Detects privilege escalation events |
+
 ---
 
 # Detection Coverage
@@ -118,6 +142,33 @@ Queries are generated from Sigma rules using pySigma and the Microsoft Kusto bac
 - Git
 - GitHub
 - Termux
+
+# Microsoft Sentinel KQL Queries
+
+This project includes Kusto Query Language (KQL) detections generated from Sigma rules.
+
+| Query | Purpose |
+|--------|---------|
+| powershell_detection.kql | Detect PowerShell execution |
+| brute_force_detection.kql | Detect repeated failed logons |
+| account_creation_detection.kql | Detect new account creation |
+| privilege_escalation_detection.kql | Detect privilege escalation |
+
+---
+
+# Technologies Used
+
+* Microsoft Sentinel
+* Microsoft Azure
+* MITRE ATT&CK
+* Linux
+* Bash
+* Git
+* GitHub
+* Termux
+* Kusto Query Language (KQL)
+* Sigma Detection Rules
+* pySigma
 
 ---
 
@@ -187,6 +238,12 @@ This project demonstrates practical SOC capabilities:
 
 - SIEM alert investigation
 - Incident triage
+
+---
+
+# SOC Analyst Skills Demonstrated
+
+- Microsoft Sentinel investigation
 - Detection engineering
 - Sigma rule development
 - KQL query development
@@ -194,8 +251,12 @@ This project demonstrates practical SOC capabilities:
 - Threat detection lifecycle
 - Security documentation
 - Blue-team workflow automation
+- Threat detection
+- Incident triage
+- Security event correlation
+- Security reporting
 
-  ---
+---
 
 # Learning Outcomes
 
